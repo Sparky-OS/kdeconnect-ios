@@ -4,9 +4,9 @@
 "vm_untrusted" = "Primeiro, emparelhe com este computador e mantenha a conexão.";
 "vm_invalid" = "O computador enviou uma resposta de monitor virtual inválida.";
 "vm_waiting" = "Verificando o suporte a monitor virtual deste computador.";
-"vm_shared_pairing" = "O Flat Headset usa este emparelhamento do KDE Connect. Abra-o, selecione este computador e toque em Pegar. Não é necessário emparelhar novamente.";
+"vm_shared_pairing" = "O Flat Headset usa este emparelhamento do KDE Connect. Abra-o, selecione este computador e toque em Catch (receber). Não é necessário emparelhar novamente.";
 "vm_refresh" = "Verificar novamente";
-"vm_catch" = "Pegar no Flat Headset";
+"vm_catch" = "Catch (receber) no Flat Headset";
 "vm_back" = "Voltar";
 "vm_missing" = "Não foi possível abrir o Flat Headset. Instale o pacote e tente novamente.";
 "vm_timeout" = "O computador não respondeu. Reconecte e verifique novamente.";
