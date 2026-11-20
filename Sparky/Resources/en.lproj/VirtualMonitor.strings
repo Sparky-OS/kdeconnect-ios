@@ -4,7 +4,7 @@
 "vm_untrusted" = "Pair with this computer and keep it connected first.";
 "vm_invalid" = "The computer sent an invalid virtual-monitor reply.";
 "vm_waiting" = "Checking this computer’s virtual-monitor support.";
-"vm_pair_separately" = "Flat Headset pairs separately with the same computer. Confirm its pairing there, then tap Catch.";
+"vm_shared_pairing" = "Flat Headset uses this KDE Connect pairing. Open it, select this computer and tap Catch. No second pairing is needed.";
 "vm_refresh" = "Check again";
 "vm_catch" = "Catch in Flat Headset";
 "vm_back" = "Go back";

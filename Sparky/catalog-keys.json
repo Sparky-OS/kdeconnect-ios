@@ -18,7 +18,7 @@
     "vm_untrusted",
     "vm_invalid",
     "vm_waiting",
-    "vm_pair_separately",
+    "vm_shared_pairing",
     "vm_refresh",
     "vm_catch",
     "vm_back",

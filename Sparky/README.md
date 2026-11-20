@@ -2,7 +2,9 @@
 
 This native KDE Connect iPhone build adds a virtual-monitor page for a paired computer.
 It checks the computer's protocol-v2 capabilities and opens Flat Headset with a fixed `flatheadset://catch` action.
-Flat Headset confirms its own pairing with the same computer and owns the virtual monitor and RDP session while in the foreground.
+Flat Headset reads this app’s canonical identity and trusted-PC certificate from its default Keychain group, then owns the virtual monitor and RDP session while in the foreground.
+The reviewed signer must grant the receiver access to this same group after checking its provisioning profile.
+KDE Connect alone creates and changes pairing; no second pairing or secret-bearing URL is used.
 No address, certificate, password or session credential crosses the application URL boundary.
 No shared Keychain entitlement is assumed.
 

@@ -4,7 +4,7 @@
 "vm_untrusted" = "Koppeln Sie zuerst diesen Computer und halten Sie die Verbindung aufrecht.";
 "vm_invalid" = "Der Computer hat eine ungültige Antwort zum virtuellen Bildschirm gesendet.";
 "vm_waiting" = "Unterstützung für virtuelle Bildschirme wird geprüft.";
-"vm_pair_separately" = "Flat Headset wird separat mit demselben Computer gekoppelt. Bestätigen Sie dort die Kopplung und tippen Sie dann auf Empfangen.";
+"vm_shared_pairing" = "Flat Headset nutzt diese KDE-Connect-Kopplung. Öffnen Sie es, wählen Sie diesen Computer und tippen Sie auf Empfangen. Eine zweite Kopplung ist nicht nötig.";
 "vm_refresh" = "Erneut prüfen";
 "vm_catch" = "In Flat Headset empfangen";
 "vm_back" = "Zurück";

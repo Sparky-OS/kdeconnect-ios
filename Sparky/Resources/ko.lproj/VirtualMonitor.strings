@@ -4,7 +4,7 @@
 "vm_untrusted" = "먼저 이 컴퓨터와 페어링하고 연결을 유지하세요.";
 "vm_invalid" = "컴퓨터가 잘못된 가상 모니터 응답을 보냈습니다.";
 "vm_waiting" = "가상 모니터 지원을 확인하고 있습니다.";
-"vm_pair_separately" = "Flat Headset은 같은 컴퓨터와 별도로 페어링합니다. 해당 앱에서 페어링을 확인한 다음 받기를 누르세요.";
+"vm_shared_pairing" = "Flat Headset은 이 KDE Connect 페어링을 사용합니다. 앱을 열고 이 컴퓨터를 선택한 다음 받기를 누르세요. 두 번째 페어링은 필요하지 않습니다.";
 "vm_refresh" = "다시 확인";
 "vm_catch" = "Flat Headset에서 받기";
 "vm_back" = "뒤로";

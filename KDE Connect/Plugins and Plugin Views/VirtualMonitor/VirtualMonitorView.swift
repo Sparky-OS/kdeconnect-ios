@@ -21,7 +21,7 @@ struct VirtualMonitorView: View {
     var body: some View {
         Section {
             Text(statusKey, tableName: "VirtualMonitor")
-            Text("vm_pair_separately", tableName: "VirtualMonitor").font(.footnote)
+            Text("vm_shared_pairing", tableName: "VirtualMonitor").font(.footnote)
             Button { plugin.refresh() } label: { Text("vm_refresh", tableName: "VirtualMonitor") }
             Button {
                 guard plugin.canOpenReceiver() else { plugin.suspend(); return }

@@ -4,7 +4,7 @@
 "vm_untrusted" = "请先与此计算机配对并保持连接。";
 "vm_invalid" = "计算机发送了无效的虚拟显示器响应。";
 "vm_waiting" = "正在检查此计算机的虚拟显示器支持。";
-"vm_pair_separately" = "Flat Headset需单独与同一台计算机配对。请在该应用中确认配对，然后点击接收。";
+"vm_shared_pairing" = "Flat Headset 使用此 KDE Connect 配对。打开应用，选择此计算机并点击接收。无需再次配对。";
 "vm_refresh" = "重新检查";
 "vm_catch" = "在Flat Headset中接收";
 "vm_back" = "返回";
