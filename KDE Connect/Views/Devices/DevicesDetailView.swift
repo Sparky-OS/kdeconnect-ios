@@ -149,6 +149,9 @@ struct DevicesDetailView: View {
     
     func deviceActionsList(device: Device) -> some View {
         List {
+            if let virtualMonitor = device._plugins[.virtualMonitor] as? VirtualMonitor {
+                VirtualMonitorView(plugin: virtualMonitor)
+            }
             Section(header: Text("Actions")) {
                 if device._pluginsEnableStatus[.clipboard] as? Bool == true {
                     Button {

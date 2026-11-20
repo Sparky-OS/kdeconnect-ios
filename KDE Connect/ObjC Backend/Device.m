@@ -463,7 +463,10 @@ static const NSInteger allowedTimestampDifferenceSeconds = 1800; // 30 minutes
     [_failedPlugins removeAllObjects];
     
     for (NSString* pluginID in _deviceInfo.incomingCapabilities) {
-        if ([pluginID isEqualToString:NetworkPacketTypePing]) {
+        if ([pluginID isEqualToString:NetworkPacketTypeVirtualMonitorRequest]) {
+            [plugins setObject:[[VirtualMonitor alloc] initWithControlDevice:self] forKey:NetworkPacketTypeVirtualMonitor];
+            [pluginsEnableStatus setValue:@TRUE forKey:NetworkPacketTypeVirtualMonitor];
+        } else if ([pluginID isEqualToString:NetworkPacketTypePing]) {
             [plugins setObject:[[Ping alloc] initWithControlDevice:self] forKey:NetworkPacketTypePing];
             [pluginsEnableStatus setValue:@TRUE forKey:NetworkPacketTypePing];
             

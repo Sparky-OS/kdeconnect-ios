@@ -5,9 +5,27 @@
 	};
 	objectVersion = 70;
 	objects = {
+737000000000000000000000 = { isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KDE Connect/Plugins and Plugin Views/VirtualMonitor/VirtualMonitorProtocol.h"; sourceTree = "<group>"; };
+737000000000000000000001 = { isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "KDE Connect/Plugins and Plugin Views/VirtualMonitor/VirtualMonitorProtocol.m"; sourceTree = "<group>"; };
+737000000000000000001001 = { isa = PBXBuildFile; fileRef = 737000000000000000000001; };
+737000000000000000000002 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KDE Connect/Plugins and Plugin Views/VirtualMonitor/VirtualMonitor.swift"; sourceTree = "<group>"; };
+737000000000000000001002 = { isa = PBXBuildFile; fileRef = 737000000000000000000002; };
+737000000000000000000003 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KDE Connect/Plugins and Plugin Views/VirtualMonitor/VirtualMonitorView.swift"; sourceTree = "<group>"; };
+737000000000000000001003 = { isa = PBXBuildFile; fileRef = 737000000000000000000003; };
+737000000000000000002000 = { isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en"; path = "Sparky/Resources/en.lproj/VirtualMonitor.strings"; sourceTree = "<group>"; };
+737000000000000000002001 = { isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "Sparky/Resources/pt-BR.lproj/VirtualMonitor.strings"; sourceTree = "<group>"; };
+737000000000000000002002 = { isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es"; path = "Sparky/Resources/es.lproj/VirtualMonitor.strings"; sourceTree = "<group>"; };
+737000000000000000002003 = { isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr"; path = "Sparky/Resources/fr.lproj/VirtualMonitor.strings"; sourceTree = "<group>"; };
+737000000000000000002004 = { isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "de"; path = "Sparky/Resources/de.lproj/VirtualMonitor.strings"; sourceTree = "<group>"; };
+737000000000000000002005 = { isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pl"; path = "Sparky/Resources/pl.lproj/VirtualMonitor.strings"; sourceTree = "<group>"; };
+737000000000000000002006 = { isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ja"; path = "Sparky/Resources/ja.lproj/VirtualMonitor.strings"; sourceTree = "<group>"; };
+737000000000000000002007 = { isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ko"; path = "Sparky/Resources/ko.lproj/VirtualMonitor.strings"; sourceTree = "<group>"; };
+737000000000000000002008 = { isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "Sparky/Resources/zh-Hans.lproj/VirtualMonitor.strings"; sourceTree = "<group>"; };
+737000000000000000002009 = { isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "Sparky/Resources/zh-Hant.lproj/VirtualMonitor.strings"; sourceTree = "<group>"; };
+737000000000000000003000 = { isa = PBXVariantGroup; children = (737000000000000000002000,737000000000000000002001,737000000000000000002002,737000000000000000002003,737000000000000000002004,737000000000000000002005,737000000000000000002006,737000000000000000002007,737000000000000000002008,737000000000000000002009,); name = VirtualMonitor.strings; sourceTree = "<group>"; };
+737000000000000000003001 = { isa = PBXBuildFile; fileRef = 737000000000000000003000; };
 
 /* Begin PBXBuildFile section */
-		1491F15A26AC8BD6008C1065 /* OpenSSL in Frameworks */ = {isa = PBXBuildFile; productRef = 1491F15926AC8BD6008C1065 /* OpenSSL */; };
 		1499A8DA2698BF0F00FDF493 /* LanLinkProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1499A8D42698BF0F00FDF493 /* LanLinkProvider.m */; };
 		1499A8DB2698BF0F00FDF493 /* LanLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 1499A8D52698BF0F00FDF493 /* LanLink.m */; };
 		1499A8DC2698BF0F00FDF493 /* BaseLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 1499A8D82698BF0F00FDF493 /* BaseLink.m */; };
@@ -271,7 +289,6 @@
 				D21A100829B878B800CE02F8 /* OrderedCollections in Frameworks */,
 				D2FBA1F9277179A300EBA686 /* CocoaAsyncSocket in Frameworks */,
 				D2FAF12727D2E78900658753 /* Introspect in Frameworks */,
-				1491F15A26AC8BD6008C1065 /* OpenSSL in Frameworks */,
 				D2D0A89C27688B5500CA9B13 /* MediaPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +405,7 @@
 		A0A04423267BF38700CC21DD = {
 			isa = PBXGroup;
 			children = (
+737000000000000000000000,737000000000000000000001,737000000000000000000002,737000000000000000000003,737000000000000000003000,
 				A0A0442E267BF38700CC21DD /* KDE Connect */,
 				A0A04440267BF38A00CC21DD /* KDE Connect Tests */,
 				A0A0444B267BF38A00CC21DD /* KDE Connect UITests */,
@@ -689,7 +707,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				D2AB56782988E4B9008A2217 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				5E1BB96C2D1B92AC0024F3FF /* Mac */,
@@ -698,7 +715,6 @@
 			);
 			name = "KDE Connect";
 			packageProductDependencies = (
-				1491F15926AC8BD6008C1065 /* OpenSSL */,
 				D2D0A89B27688B5500CA9B13 /* MediaPicker */,
 				D2FBA1F8277179A300EBA686 /* CocoaAsyncSocket */,
 				D2FAF12627D2E78900658753 /* Introspect */,
@@ -792,12 +808,10 @@
 			);
 			mainGroup = A0A04423267BF38700CC21DD;
 			packageReferences = (
-				1491F15826AC8BD6008C1065 /* XCRemoteSwiftPackageReference "OpenSSL" */,
 				D2D0A89A27688B5500CA9B13 /* XCLocalSwiftPackageReference "Packages/SwiftUI-MediaPicker" */,
 				D2FBA1F6277178A000EBA686 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */,
 				D2FAF12527D2E78900658753 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
 				D21A100629B878B800CE02F8 /* XCRemoteSwiftPackageReference "swift-collections" */,
-				D2D7AB82298C8EA600AB490B /* XCRemoteSwiftPackageReference "SwiftLint" */,
 			);
 			productRefGroup = A0A0442D267BF38700CC21DD /* Products */;
 			projectDirPath = "";
@@ -815,6 +829,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+737000000000000000003001,
 				A0A04437267BF38A00CC21DD /* Preview Assets.xcassets in Resources */,
 				5EA4114427960C1C0044C559 /* libs.json in Resources */,
 				5EA4114627960D0B0044C559 /* Assets.xcassets in Resources */,
@@ -844,6 +859,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+737000000000000000001001,737000000000000000001002,737000000000000000001003,
 				1499A8DA2698BF0F00FDF493 /* LanLinkProvider.m in Sources */,
 				1499A8DD2698BF0F00FDF493 /* BaseLinkProvider.m in Sources */,
 				1499A8E22698BF6900FDF493 /* NetworkPacket.m in Sources */,
@@ -956,10 +972,6 @@
 			isa = PBXTargetDependency;
 			target = A0A0442B267BF38700CC21DD /* KDE Connect */;
 			targetProxy = A0A04449267BF38A00CC21DD /* PBXContainerItemProxy */;
-		};
-		D2AB56782988E4B9008A2217 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			productRef = D2AB56772988E4B9008A2217 /* SwiftLintPlugin */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1155,6 +1167,9 @@
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 0.5.7;
 				PRODUCT_BUNDLE_IDENTIFIER = org.kde.kdeconnect;
+				HEADER_SEARCH_PATHS = "$(inherited) $(KDE_OPENSSL_PREFIX)/include";
+				LIBRARY_SEARCH_PATHS = "$(inherited) $(KDE_OPENSSL_PREFIX)/lib";
+				OTHER_LDFLAGS = "$(inherited) -lssl -lcrypto";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = NO;
 				RUN_CLANG_STATIC_ANALYZER = YES;
@@ -1194,6 +1209,9 @@
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 0.5.7;
 				PRODUCT_BUNDLE_IDENTIFIER = org.kde.kdeconnect;
+				HEADER_SEARCH_PATHS = "$(inherited) $(KDE_OPENSSL_PREFIX)/include";
+				LIBRARY_SEARCH_PATHS = "$(inherited) $(KDE_OPENSSL_PREFIX)/lib";
+				OTHER_LDFLAGS = "$(inherited) -lssl -lcrypto";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -1341,44 +1359,20 @@
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1491F15826AC8BD6008C1065 /* XCRemoteSwiftPackageReference "OpenSSL" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/krzyzanowskim/OpenSSL.git";
-			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 3.6.0;
-			};
-		};
 		D21A100629B878B800CE02F8 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apple/swift-collections.git";
 			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 1.0.4;
-			};
-		};
-		D2AB56752988E4B0008A2217 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/evfemist/SwiftLint.git";
-			requirement = {
 				kind = revision;
-				revision = a780f2e563d7402f078951c2a0fae0a208548196;
-			};
-		};
-		D2D7AB82298C8EA600AB490B /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/SwiftLint.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.51.0;
+				revision = a902f1823a7ff3c9ab2fba0f992396b948eda307;
 			};
 		};
 		D2FAF12527D2E78900658753 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect";
 			requirement = {
-				kind = exactVersion;
-				version = 0.1.4;
+				kind = revision;
+				revision = f2616860a41f9d9932da412a8978fec79c06fe24;
 			};
 		};
 		D2FBA1F6277178A000EBA686 /* XCRemoteSwiftPackageReference "CocoaAsyncSocket" */ = {
@@ -1392,20 +1386,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1491F15926AC8BD6008C1065 /* OpenSSL */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1491F15826AC8BD6008C1065 /* XCRemoteSwiftPackageReference "OpenSSL" */;
-			productName = OpenSSL;
-		};
 		D21A100729B878B800CE02F8 /* OrderedCollections */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D21A100629B878B800CE02F8 /* XCRemoteSwiftPackageReference "swift-collections" */;
 			productName = OrderedCollections;
-		};
-		D2AB56772988E4B9008A2217 /* SwiftLintPlugin */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D2AB56752988E4B0008A2217 /* XCRemoteSwiftPackageReference "SwiftLint" */;
-			productName = "plugin:SwiftLintPlugin";
 		};
 		D2D0A89B27688B5500CA9B13 /* MediaPicker */ = {
 			isa = XCSwiftPackageProductDependency;

@@ -65,6 +65,8 @@ typedef NSString *NetworkPacketType NS_TYPED_ENUM NS_SWIFT_NAME(NetworkPacket.Ty
 FOUNDATION_EXPORT NetworkPacketType const NetworkPacketTypeIdentity;
 FOUNDATION_EXPORT NetworkPacketType const NetworkPacketTypePair;
 FOUNDATION_EXPORT NetworkPacketType const NetworkPacketTypePing;
+FOUNDATION_EXPORT NetworkPacketType const NetworkPacketTypeVirtualMonitor;
+FOUNDATION_EXPORT NetworkPacketType const NetworkPacketTypeVirtualMonitorRequest;
 
 FOUNDATION_EXPORT NetworkPacketType const NetworkPacketTypeMPRIS;
 

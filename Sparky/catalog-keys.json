@@ -1,0 +1,28 @@
+{
+  "languages": [
+    "en",
+    "pt-BR",
+    "es",
+    "fr",
+    "de",
+    "pl",
+    "ja",
+    "ko",
+    "zh-Hans",
+    "zh-Hant"
+  ],
+  "keys": [
+    "vm_title",
+    "vm_ready",
+    "vm_unavailable",
+    "vm_untrusted",
+    "vm_invalid",
+    "vm_waiting",
+    "vm_pair_separately",
+    "vm_refresh",
+    "vm_catch",
+    "vm_back",
+    "vm_missing",
+    "vm_timeout"
+  ]
+}

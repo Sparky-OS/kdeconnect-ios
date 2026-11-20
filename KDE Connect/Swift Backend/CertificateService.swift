@@ -207,7 +207,7 @@ import CryptoKit
         if let remoteCert: SecCertificate = extractRemoteCertFromTrust(trust: trust) {
             if let storedRemoteCert: SecCertificate = extractSavedCertOfRemoteDevice(deviceId: deviceId) {
                 logger.debug("Both remote cert and stored cert exist, checking them for equality")
-                if ((SecCertificateCopyData(remoteCert) as Data) == (SecCertificateCopyData(storedRemoteCert) as Data)) {
+                if VirtualMonitorProtocol.certificate(SecCertificateCopyData(remoteCert) as Data, matchesSaved: SecCertificateCopyData(storedRemoteCert) as Data) {
                     return true
                 } else {
                     logger.error("reject remote device for having a different certificate from the stored certificate")

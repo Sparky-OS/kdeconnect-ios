@@ -1,0 +1,12 @@
+"vm_title" = "가상 모니터";
+"vm_ready" = "이 컴퓨터는 Flat Headset으로 데스크톱을 보낼 수 있습니다.";
+"vm_unavailable" = "이 컴퓨터는 필요한 가상 모니터를 제공하지 않습니다.";
+"vm_untrusted" = "먼저 이 컴퓨터와 페어링하고 연결을 유지하세요.";
+"vm_invalid" = "컴퓨터가 잘못된 가상 모니터 응답을 보냈습니다.";
+"vm_waiting" = "가상 모니터 지원을 확인하고 있습니다.";
+"vm_pair_separately" = "Flat Headset은 같은 컴퓨터와 별도로 페어링합니다. 해당 앱에서 페어링을 확인한 다음 받기를 누르세요.";
+"vm_refresh" = "다시 확인";
+"vm_catch" = "Flat Headset에서 받기";
+"vm_back" = "뒤로";
+"vm_missing" = "Flat Headset을 열 수 없습니다. 패키지를 설치한 다음 다시 시도하세요.";
+"vm_timeout" = "컴퓨터가 응답하지 않습니다. 다시 연결하고 확인하세요.";

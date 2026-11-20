@@ -26,6 +26,8 @@ class KdeConnectSettings: NSObject, ObservableObject {
     
     // FIXME: actually read what plugins are available
     static let IncomingCapabilities: [NetworkPacket.`Type`] = [
+        .virtualMonitor,
+        .virtualMonitorRequest,
         .ping,
         .share,
         .shareRequestUpdate,
@@ -37,6 +39,8 @@ class KdeConnectSettings: NSObject, ObservableObject {
         .runCommand,
     ]
     static let OutgoingCapabilities: [NetworkPacket.`Type`] = [
+        .virtualMonitor,
+        .virtualMonitorRequest,
         .ping,
         .share,
         .shareRequestUpdate,
@@ -55,8 +59,7 @@ class KdeConnectSettings: NSObject, ObservableObject {
     @objc
     static func getUUID() -> String {
         if cachedUuid == nil {
-            let group = "5433B4KXM8.org.kde.kdeconnect"
-            let wrapper = KeychainItemWrapper(identifier: "org.kde.kdeconnect-ios", accessGroup: group)!
+            let wrapper = KeychainItemWrapper(identifier: "org.sparkyos.kdeconnect.identity", accessGroup: nil)!
             if let savedUUID = wrapper.object(forKey: kSecValueData as String) as? String, !savedUUID.isEmpty {
                 cachedUuid = savedUUID
             } else {

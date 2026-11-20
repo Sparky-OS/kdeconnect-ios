@@ -1,0 +1,12 @@
+"vm_title" = "Monitor virtual";
+"vm_ready" = "Este equipo puede enviar un escritorio a Flat Headset.";
+"vm_unavailable" = "Este equipo no ofrece el monitor virtual necesario.";
+"vm_untrusted" = "Primero, vincula este equipo y mantenlo conectado.";
+"vm_invalid" = "El equipo envió una respuesta de monitor virtual no válida.";
+"vm_waiting" = "Comprobando la compatibilidad del equipo con monitores virtuales.";
+"vm_pair_separately" = "Flat Headset se vincula por separado con el mismo equipo. Confirma allí la vinculación y pulsa Recibir.";
+"vm_refresh" = "Volver a comprobar";
+"vm_catch" = "Recibir en Flat Headset";
+"vm_back" = "Volver";
+"vm_missing" = "No se pudo abrir Flat Headset. Instala su paquete y vuelve a intentarlo.";
+"vm_timeout" = "El equipo no respondió. Vuelve a conectar y comprobar.";

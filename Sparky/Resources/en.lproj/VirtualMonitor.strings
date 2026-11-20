@@ -1,0 +1,12 @@
+"vm_title" = "Virtual monitor";
+"vm_ready" = "This computer can send a desktop to Flat Headset.";
+"vm_unavailable" = "This computer does not offer the required virtual monitor.";
+"vm_untrusted" = "Pair with this computer and keep it connected first.";
+"vm_invalid" = "The computer sent an invalid virtual-monitor reply.";
+"vm_waiting" = "Checking this computer’s virtual-monitor support.";
+"vm_pair_separately" = "Flat Headset pairs separately with the same computer. Confirm its pairing there, then tap Catch.";
+"vm_refresh" = "Check again";
+"vm_catch" = "Catch in Flat Headset";
+"vm_back" = "Go back";
+"vm_missing" = "Flat Headset could not be opened. Install its package, then try again.";
+"vm_timeout" = "The computer did not reply. Reconnect and check again.";

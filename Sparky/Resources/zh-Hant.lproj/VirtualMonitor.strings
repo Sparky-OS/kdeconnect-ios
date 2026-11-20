@@ -1,0 +1,12 @@
+"vm_title" = "虛擬顯示器";
+"vm_ready" = "此電腦可以向Flat Headset傳送桌面。";
+"vm_unavailable" = "此電腦不提供所需的虛擬顯示器。";
+"vm_untrusted" = "請先與此電腦配對並保持連線。";
+"vm_invalid" = "電腦傳送了無效的虛擬顯示器回應。";
+"vm_waiting" = "正在檢查此電腦的虛擬顯示器支援。";
+"vm_pair_separately" = "Flat Headset需單獨與同一台電腦配對。請在該應用程式中確認配對，然後點選接收。";
+"vm_refresh" = "重新檢查";
+"vm_catch" = "在Flat Headset中接收";
+"vm_back" = "返回";
+"vm_missing" = "無法開啟Flat Headset。請安裝其軟體套件後再試。";
+"vm_timeout" = "電腦未回應。請重新連線後再檢查。";

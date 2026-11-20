@@ -244,3 +244,6 @@ NetworkPacketType const NetworkPacketTypePresenter                = @"kdeconnect
 
 NetworkPacketType const NetworkPacketTypeRunCommandRequest        = @"kdeconnect.runcommand.request";
 NetworkPacketType const NetworkPacketTypeRunCommand               = @"kdeconnect.runcommand";
+
+NetworkPacketType const NetworkPacketTypeVirtualMonitor = @"kdeconnect.virtualmonitor";
+NetworkPacketType const NetworkPacketTypeVirtualMonitorRequest = @"kdeconnect.virtualmonitor.request";

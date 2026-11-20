@@ -11,6 +11,7 @@
 
 #import "BackgroundService.h"
 #import "Device.h"
+#import "../Plugins and Plugin Views/VirtualMonitor/VirtualMonitorProtocol.h"
 #import "NetworkPacket.h"
 #import "KeychainItemWrapper.h"
 
