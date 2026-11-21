@@ -1150,11 +1150,11 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_STATIC_ANALYZER_MODE = deep;
-				CODE_SIGN_ENTITLEMENTS = "KDE Connect/KDE Connect.entitlements";
+				CODE_SIGN_ENTITLEMENTS = Sparky/Sideload.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KDE Connect/Preview Content\"";
-				DEVELOPMENT_TEAM = 5433B4KXM8;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "KDE Connect/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
@@ -1166,7 +1166,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 0.5.7;
-				PRODUCT_BUNDLE_IDENTIFIER = org.kde.kdeconnect;
+				PRODUCT_BUNDLE_IDENTIFIER = org.sparkyos.kdeconnect;
 				HEADER_SEARCH_PATHS = "$(inherited) $(KDE_OPENSSL_PREFIX)/include";
 				LIBRARY_SEARCH_PATHS = "$(inherited) $(KDE_OPENSSL_PREFIX)/lib";
 				OTHER_LDFLAGS = "$(inherited) -lssl -lcrypto";
@@ -1192,11 +1192,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "KDE Connect/KDE Connect.entitlements";
+				CODE_SIGN_ENTITLEMENTS = Sparky/Sideload.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KDE Connect/Preview Content\"";
-				DEVELOPMENT_TEAM = 5433B4KXM8;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "KDE Connect/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
@@ -1208,7 +1208,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 0.5.7;
-				PRODUCT_BUNDLE_IDENTIFIER = org.kde.kdeconnect;
+				PRODUCT_BUNDLE_IDENTIFIER = org.sparkyos.kdeconnect;
 				HEADER_SEARCH_PATHS = "$(inherited) $(KDE_OPENSSL_PREFIX)/include";
 				LIBRARY_SEARCH_PATHS = "$(inherited) $(KDE_OPENSSL_PREFIX)/lib";
 				OTHER_LDFLAGS = "$(inherited) -lssl -lcrypto";
@@ -1230,7 +1230,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5433B4KXM8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "KDE Connect Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1252,7 +1252,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5433B4KXM8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "KDE Connect Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1273,7 +1273,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5433B4KXM8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "KDE Connect UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1294,7 +1294,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5433B4KXM8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "KDE Connect UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
