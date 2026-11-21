@@ -4,9 +4,9 @@
 "vm_untrusted" = "まずこのコンピューターとペアリングし、接続を維持してください。";
 "vm_invalid" = "コンピューターから無効な仮想モニターの応答が届きました。";
 "vm_waiting" = "仮想モニターへの対応を確認しています。";
-"vm_shared_pairing" = "Flat Headset はこの KDE Connect のペアリングを使います。開いてこのコンピューターを選び、「受信」をタップしてください。再度のペアリングは不要です。";
+"vm_shared_pairing" = "Flat Headset はこの KDE Connect のペアリングを使います。開いてこのコンピューターを選び、「Catch (受け取る)」をタップしてください。再度のペアリングは不要です。";
 "vm_refresh" = "再確認";
-"vm_catch" = "Flat Headsetで受信";
+"vm_catch" = "Flat HeadsetでCatch (受け取る)";
 "vm_back" = "戻る";
 "vm_missing" = "Flat Headsetを開けませんでした。パッケージをインストールして再試行してください。";
 "vm_timeout" = "コンピューターから応答がありません。再接続して確認してください。";

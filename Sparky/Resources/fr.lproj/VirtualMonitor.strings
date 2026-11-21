@@ -4,9 +4,9 @@
 "vm_untrusted" = "Associez d’abord cet ordinateur et gardez-le connecté.";
 "vm_invalid" = "L’ordinateur a envoyé une réponse d’écran virtuel non valide.";
 "vm_waiting" = "Vérification de la prise en charge des écrans virtuels.";
-"vm_shared_pairing" = "Flat Headset utilise cette association KDE Connect. Ouvrez-le, sélectionnez cet ordinateur et touchez Recevoir. Aucune seconde association n’est nécessaire.";
+"vm_shared_pairing" = "Flat Headset utilise cette association KDE Connect. Ouvrez-le, sélectionnez cet ordinateur et touchez Catch (recevoir). Aucune seconde association n’est nécessaire.";
 "vm_refresh" = "Vérifier à nouveau";
-"vm_catch" = "Recevoir dans Flat Headset";
+"vm_catch" = "Catch (recevoir) dans Flat Headset";
 "vm_back" = "Retour";
 "vm_missing" = "Impossible d’ouvrir Flat Headset. Installez son paquet, puis réessayez.";
 "vm_timeout" = "L’ordinateur n’a pas répondu. Reconnectez-le et vérifiez à nouveau.";

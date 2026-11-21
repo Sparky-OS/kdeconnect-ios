@@ -4,9 +4,9 @@
 "vm_untrusted" = "請先與此電腦配對並保持連線。";
 "vm_invalid" = "電腦傳送了無效的虛擬顯示器回應。";
 "vm_waiting" = "正在檢查此電腦的虛擬顯示器支援。";
-"vm_shared_pairing" = "Flat Headset 使用此 KDE Connect 配對。開啟應用程式，選擇此電腦並點選接收。無需再次配對。";
+"vm_shared_pairing" = "Flat Headset 使用此 KDE Connect 配對。開啟應用程式，選擇此電腦並點選Catch (接收)。無需再次配對。";
 "vm_refresh" = "重新檢查";
-"vm_catch" = "在Flat Headset中接收";
+"vm_catch" = "在Flat Headset中Catch (接收)";
 "vm_back" = "返回";
 "vm_missing" = "無法開啟Flat Headset。請安裝其軟體套件後再試。";
 "vm_timeout" = "電腦未回應。請重新連線後再檢查。";
